@@ -35,18 +35,7 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-    # generate_x=reactive({
-    #     e=numeric(input$n)
-    #     e[1]=rnorm(1,0,sigma);e[2]=rnorm(1,0,sigma)
-    #     x=numeric(n)
-    #     x[1]=e[1];x[2]=e[2]+input$theta1*e[1]
-    #     for(i in 3:100){
-    #         e[i]=rnorm(1,0,sigma)
-    #         x[i]=e[i]+input$theta1*e[i-1]+input$theta2*e[i-2]
-    #     }
-    #     x
-    # })
-
+    
     output$tsplot <- renderPlot({
         set.seed(1234)
         sigma=1

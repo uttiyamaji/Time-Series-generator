@@ -1,3 +1,3 @@
 # Time-Series-generator
 
-A $Shiny App$ to generate AR/MA processes to visualise how they look like.
+A _Shiny App_ to visualise AR/MA processes with varying parameters
